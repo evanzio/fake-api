@@ -1,57 +1,59 @@
 {
 	"users": [{
-		"userId": 123456,
+		"id": 1,
 		"firstName": "Stephen",
 		"lastName": "Evans"
 	}, {
-		"userId": 123457,
-		"firstName": "FirstTest",
-		"lastName": "LastTest"
+		"id": 2,
+		"firstName": "Foo",
+		"lastName": "Bar"
 	}],
 	"cardDetails": [{
-		"userId": 123456,
+		"id": 1,
+		"userId": 1,
 		"cardNumber": "9320 XXXX XXXX 0984",
 		"expiryDate": "23/1/2024",
 		"csv": 233,
 		"CreditLimit": 450
 	},{
-		"userId": 123457,
+		"id": 2,
+		"userId": 2,
 		"cardNumber": "3399 XXXX XXXX 1234",
 		"expiryDate": "22/12/2024",
 		"csv": 933,
 		"CreditLimit": 250
 	}],
 	"transactions": [{
-			"userId": 123456,
-			"transactionID": 123,
+			"id": 1,
+			"userId": 1,
 			"company": "ASOS",
 			"cost": 22,
 			"date": "01/01/2019"
 		},
 		{
-			"userId": 123456,
-			"transactionID": 124,
+			"id": 2,
+			"userId": 1,
 			"company": "THREAD",
 			"cost": 150,
 			"date": "01/01/2019"
 		},
 		{
-			"userId": 123456,
-			"transactionID": 125,
+			"id": 3,
+			"userId": 1,
 			"company": "EBAY",
 			"cost": 12,
 			"date": "01/01/2019"
 		},
 		{
-			"userId": 123456,
-			"transactionID": 126,
+			"id": 4,
+			"userId": 1,
 			"company": "JOHN LEWIS",
 			"cost": 85,
 			"date": "01/01/2019"
 		},
 		{
-			"userId": 123456,
-			"transactionID": 127,
+			"id": 5,
+			"userId": 1,
 			"company": "TOPMAN",
 			"cost": 45,
 			"date": "01/01/2019"
