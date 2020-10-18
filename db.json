@@ -1,54 +1,50 @@
 {
-  "users": [
-    {
-      "userId": 123456
-      "firstName" : "Stephen",
-      "lastName" : "Evans"
-    }
-  ],
-  "cardDetails":
-    {
-      "userId": 123456,
-      "cardNumber": "9320 XXXX XXXX 0984",
-      "expiryDate": "23/1/2024",
-      "csv": 233,
-      "CreditLimit": 450,
-    },
-  "transactions": [
-    {
-      "userId": 123456,
-      "transactionID": 123,
-      "company": "ASOS",
-      "cost": 22,
-      "date": "01/01/2019"
-    },
-    {
-      "userId": 123456,
-      "transactionID": 124,
-      "company": "THREAD",
-      "cost": 150,
-      "date": "01/01/2019"
-    },
-    {
-      "userId": 123456,
-      "transactionID": 125,
-      "company": "EBAY",
-      "cost": 12,
-      "date": "01/01/2019"
-    },
-    {
-      "userId": 123456,
-      "transactionID": 126,
-      "company": "JOHN LEWIS",
-      "cost": 85,
-      "date": "01/01/2019"
-    },
-    {
-      "userId": 123456,
-      "transactionID": 127,
-      "company": "TOPMAN",
-      "cost": 45,
-      "date": "01/01/2019"
-    }
-  ]
+	"users": [{
+		"userId": 123456,
+		"firstName": "Stephen",
+		"lastName": "Evans"
+	}],
+	"cardDetails": {
+		"userId": 123456,
+		"cardNumber": "9320 XXXX XXXX 0984",
+		"expiryDate": "23/1/2024",
+		"csv": 233,
+		"CreditLimit": 450
+	},
+	"transactions": [{
+			"userId": 123456,
+			"transactionID": 123,
+			"company": "ASOS",
+			"cost": 22,
+			"date": "01/01/2019"
+		},
+		{
+			"userId": 123456,
+			"transactionID": 124,
+			"company": "THREAD",
+			"cost": 150,
+			"date": "01/01/2019"
+		},
+		{
+			"userId": 123456,
+			"transactionID": 125,
+			"company": "EBAY",
+			"cost": 12,
+			"date": "01/01/2019"
+		},
+		{
+			"userId": 123456,
+			"transactionID": 126,
+			"company": "JOHN LEWIS",
+			"cost": 85,
+			"date": "01/01/2019"
+		},
+		{
+			"userId": 123456,
+			"transactionID": 127,
+			"company": "TOPMAN",
+			"cost": 45,
+			"date": "01/01/2019"
+		}
+	]
 }
