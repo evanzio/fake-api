@@ -3,14 +3,24 @@
 		"userId": 123456,
 		"firstName": "Stephen",
 		"lastName": "Evans"
+	}, {
+		"userId": 123457,
+		"firstName": "FirstTest",
+		"lastName": "LastTest"
 	}],
-	"cardDetails": {
+	"cardDetails": [{
 		"userId": 123456,
 		"cardNumber": "9320 XXXX XXXX 0984",
 		"expiryDate": "23/1/2024",
 		"csv": 233,
 		"CreditLimit": 450
-	},
+	},{
+		"userId": 123457,
+		"cardNumber": "3399 XXXX XXXX 1234",
+		"expiryDate": "22/12/2024",
+		"csv": 933,
+		"CreditLimit": 250
+	}],
 	"transactions": [{
 			"userId": 123456,
 			"transactionID": 123,
